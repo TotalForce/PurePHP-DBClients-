@@ -1,0 +1,19 @@
+<!DOCKTYPE>
+<html>
+    <title>Test</title>
+	<head>  
+	    <link rel = "stylesheet" href = "main.css">
+	</head>
+	<body>
+	    <form action = "../main.php" method = "POST">
+		    <p>Name</p><input type = "text" name = "name" /> <br>
+			<p>Surname</p><input type = "text" name = "surname"/> <br>
+			<p>Mobile phone</p><input type = "text" name = "phone" /> <br>
+			<p>Commentary</p><input type = "text" name = "commentary" /> <br>
+			<button type = "submit" name = "clientForm">Add client</button>
+		</form>
+		<button onclick = "seeClients()">See clients</button>
+		<div id = "clientsDiv"></div>
+	    <script src = "main.js"></script>
+	</body>
+</html>
